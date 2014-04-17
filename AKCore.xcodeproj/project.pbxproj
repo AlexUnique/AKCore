@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA6C2E7619001A4000A049A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA6C2E7519001A4000A049A4 /* Foundation.framework */; };
+		FA6C2E8419001A4000A049A4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA6C2E8319001A4000A049A4 /* XCTest.framework */; };
+		FA6C2E8519001A4000A049A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA6C2E7519001A4000A049A4 /* Foundation.framework */; };
+		FA6C2E8719001A4000A049A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA6C2E8619001A4000A049A4 /* UIKit.framework */; };
+		FA6C2E8A19001A4000A049A4 /* libAKCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA6C2E7219001A4000A049A4 /* libAKCore.a */; };
+		FA6C2E9019001A4000A049A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA6C2E8E19001A4000A049A4 /* InfoPlist.strings */; };
+		FA6C2E9219001A4000A049A4 /* AKCoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6C2E9119001A4000A049A4 /* AKCoreTests.m */; };
+		FA6C2E9E19001FE700A049A4 /* AKCore.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6C2E9D19001FE700A049A4 /* AKCore.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA6C2E8819001A4000A049A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA6C2E6A19001A4000A049A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA6C2E7119001A4000A049A4;
+			remoteInfo = AKCore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FA6C2E7019001A4000A049A4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FA6C2E7219001A4000A049A4 /* libAKCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAKCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA6C2E7519001A4000A049A4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FA6C2E7919001A4000A049A4 /* AKCore-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AKCore-Prefix.pch"; sourceTree = "<group>"; };
+		FA6C2E8219001A4000A049A4 /* AKCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AKCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA6C2E8319001A4000A049A4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FA6C2E8619001A4000A049A4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		FA6C2E8D19001A4000A049A4 /* AKCoreTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AKCoreTests-Info.plist"; sourceTree = "<group>"; };
+		FA6C2E8F19001A4000A049A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA6C2E9119001A4000A049A4 /* AKCoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AKCoreTests.m; sourceTree = "<group>"; };
+		FA6C2E9C19001FE700A049A4 /* AKCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKCore.h; sourceTree = "<group>"; };
+		FA6C2E9D19001FE700A049A4 /* AKCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKCore.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA6C2E6F19001A4000A049A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6C2E7619001A4000A049A4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA6C2E7F19001A4000A049A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6C2E8419001A4000A049A4 /* XCTest.framework in Frameworks */,
+				FA6C2E8719001A4000A049A4 /* UIKit.framework in Frameworks */,
+				FA6C2E8A19001A4000A049A4 /* libAKCore.a in Frameworks */,
+				FA6C2E8519001A4000A049A4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA6C2E6919001A4000A049A4 = {
+			isa = PBXGroup;
+			children = (
+				FA6C2E7719001A4000A049A4 /* AKCore */,
+				FA6C2E8B19001A4000A049A4 /* AKCoreTests */,
+				FA6C2E7419001A4000A049A4 /* Frameworks */,
+				FA6C2E7319001A4000A049A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA6C2E7319001A4000A049A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA6C2E7219001A4000A049A4 /* libAKCore.a */,
+				FA6C2E8219001A4000A049A4 /* AKCoreTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA6C2E7419001A4000A049A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA6C2E7519001A4000A049A4 /* Foundation.framework */,
+				FA6C2E8319001A4000A049A4 /* XCTest.framework */,
+				FA6C2E8619001A4000A049A4 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA6C2E7719001A4000A049A4 /* AKCore */ = {
+			isa = PBXGroup;
+			children = (
+				FA6C2E9B19001FE700A049A4 /* Classes */,
+				FA6C2E7819001A4000A049A4 /* Supporting Files */,
+			);
+			path = AKCore;
+			sourceTree = "<group>";
+		};
+		FA6C2E7819001A4000A049A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA6C2E7919001A4000A049A4 /* AKCore-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA6C2E8B19001A4000A049A4 /* AKCoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA6C2E9119001A4000A049A4 /* AKCoreTests.m */,
+				FA6C2E8C19001A4000A049A4 /* Supporting Files */,
+			);
+			path = AKCoreTests;
+			sourceTree = "<group>";
+		};
+		FA6C2E8C19001A4000A049A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA6C2E8D19001A4000A049A4 /* AKCoreTests-Info.plist */,
+				FA6C2E8E19001A4000A049A4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA6C2E9B19001FE700A049A4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FA6C2E9C19001FE700A049A4 /* AKCore.h */,
+				FA6C2E9D19001FE700A049A4 /* AKCore.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA6C2E7119001A4000A049A4 /* AKCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA6C2E9519001A4000A049A4 /* Build configuration list for PBXNativeTarget "AKCore" */;
+			buildPhases = (
+				FA6C2E6E19001A4000A049A4 /* Sources */,
+				FA6C2E6F19001A4000A049A4 /* Frameworks */,
+				FA6C2E7019001A4000A049A4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AKCore;
+			productName = AKCore;
+			productReference = FA6C2E7219001A4000A049A4 /* libAKCore.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FA6C2E8119001A4000A049A4 /* AKCoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA6C2E9819001A4000A049A4 /* Build configuration list for PBXNativeTarget "AKCoreTests" */;
+			buildPhases = (
+				FA6C2E7E19001A4000A049A4 /* Sources */,
+				FA6C2E7F19001A4000A049A4 /* Frameworks */,
+				FA6C2E8019001A4000A049A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA6C2E8919001A4000A049A4 /* PBXTargetDependency */,
+			);
+			name = AKCoreTests;
+			productName = AKCoreTests;
+			productReference = FA6C2E8219001A4000A049A4 /* AKCoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA6C2E6A19001A4000A049A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Alex Kalinichenko";
+			};
+			buildConfigurationList = FA6C2E6D19001A4000A049A4 /* Build configuration list for PBXProject "AKCore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FA6C2E6919001A4000A049A4;
+			productRefGroup = FA6C2E7319001A4000A049A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA6C2E7119001A4000A049A4 /* AKCore */,
+				FA6C2E8119001A4000A049A4 /* AKCoreTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA6C2E8019001A4000A049A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6C2E9019001A4000A049A4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA6C2E6E19001A4000A049A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6C2E9E19001FE700A049A4 /* AKCore.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA6C2E7E19001A4000A049A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6C2E9219001A4000A049A4 /* AKCoreTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA6C2E8919001A4000A049A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA6C2E7119001A4000A049A4 /* AKCore */;
+			targetProxy = FA6C2E8819001A4000A049A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA6C2E8E19001A4000A049A4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA6C2E8F19001A4000A049A4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA6C2E9319001A4000A049A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FA6C2E9419001A4000A049A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA6C2E9619001A4000A049A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/AKCore.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AKCore/AKCore-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FA6C2E9719001A4000A049A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/AKCore.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AKCore/AKCore-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FA6C2E9919001A4000A049A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AKCore/AKCore-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AKCoreTests/AKCoreTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FA6C2E9A19001A4000A049A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AKCore/AKCore-Prefix.pch";
+				INFOPLIST_FILE = "AKCoreTests/AKCoreTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA6C2E6D19001A4000A049A4 /* Build configuration list for PBXProject "AKCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA6C2E9319001A4000A049A4 /* Debug */,
+				FA6C2E9419001A4000A049A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA6C2E9519001A4000A049A4 /* Build configuration list for PBXNativeTarget "AKCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA6C2E9619001A4000A049A4 /* Debug */,
+				FA6C2E9719001A4000A049A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA6C2E9819001A4000A049A4 /* Build configuration list for PBXNativeTarget "AKCoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA6C2E9919001A4000A049A4 /* Debug */,
+				FA6C2E9A19001A4000A049A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA6C2E6A19001A4000A049A4 /* Project object */;
+}
