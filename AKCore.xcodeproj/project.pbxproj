@@ -6,6 +6,19 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		FAF08BA019BF55460094C8EB /* UIAutoMa */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = FAF08BA119BF55460094C8EB /* Build configuration list for PBXAggregateTarget "UIAutoMa" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = UIAutoMa;
+			productName = UIAutoMa;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		FA6C2E7619001A4000A049A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA6C2E7519001A4000A049A4 /* Foundation.framework */; };
 		FA6C2E8419001A4000A049A4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA6C2E8319001A4000A049A4 /* XCTest.framework */; };
@@ -210,6 +223,7 @@
 			targets = (
 				FA6C2E7119001A4000A049A4 /* AKCore */,
 				FA6C2E8119001A4000A049A4 /* AKCoreTests */,
+				FAF08BA019BF55460094C8EB /* UIAutoMa */,
 			);
 		};
 /* End PBXProject section */
@@ -392,6 +406,20 @@
 			};
 			name = Release;
 		};
+		FAF08BA219BF55460094C8EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAF08BA319BF55460094C8EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -421,6 +449,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		FAF08BA119BF55460094C8EB /* Build configuration list for PBXAggregateTarget "UIAutoMa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF08BA219BF55460094C8EB /* Debug */,
+				FAF08BA319BF55460094C8EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
